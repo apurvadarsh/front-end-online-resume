@@ -19,6 +19,9 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
+#role {
+  color: white;
+}
 
 .clear-fix {
   overflow: auto;
@@ -127,12 +130,12 @@ a {
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+  background-color: #651010;
 }
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+  background-color: #651010;
 }
 
 .flex-box {
@@ -174,6 +177,9 @@ span {
 .project-image {
   max-width: 40%;
   height: auto;
+}
+#connect {
+  color: white;
 }
 
 /* Media queries to handle various device widths */
