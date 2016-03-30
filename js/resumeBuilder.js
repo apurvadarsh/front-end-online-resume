@@ -190,7 +190,7 @@ education.display = function() {
         $("#education").append(HTMLschoolStart);
         var formattedonlineTitle = HTMLonlineTitle.replace(data, education.onlineCourses[online].title);
         var formattedonlineSchool = HTMLonlineSchool.replace(data, education.onlineCourses[online].school);
-        var formattedonlineDates = HTMLonlineDates.replace(data, education.onlineCourses[online].dates);
+        var formattedonlineDates = HTMLonlineDates.replace(data, education.onlineCourses[online].date);
         var formattedonlineURL = HTMLonlineURL.replace(data, education.onlineCourses[online].url);
 
 
